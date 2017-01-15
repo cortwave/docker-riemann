@@ -2,6 +2,8 @@
 Dockerized [riemann](https://riemann.io) monitoring server
 
 [![Build Status](https://travis-ci.org/cortwave/docker-riemann.svg?branch=master)](https://travis-ci.org/cortwave/docker-riemann)
+[![Docker Pulls](https://img.shields.io/docker/pulls/cortwave/riemann.svg)](https://hub.docker.com/r/cortwave/riemann)
+[![Docker Stars](https://img.shields.io/docker/stars/cortwave/riemann.svg)](https://hub.docker.com/r/cortwave/riemann)
 
 ## Run instructions
 
