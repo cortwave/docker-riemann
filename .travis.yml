@@ -6,4 +6,4 @@ services:
 script:
     - docker build -t riemann .
 
-    - "[[ -n \"$TRAVIS_TAG\" ]]" && docker login -u="$DOCKER_USER" -p="$DOCKER_PASS" && docker tag riemann cortwave/riemann:latest &&  docker push cortwave/riemann:latest && docker tag riemann cortwave/riemann:$TRAVIS_TAG && docker push cortwave/riemann:$TRAVIS_TAG
+    - "[ -n \"$TRAVIS_TAG\" ]" && docker login -u="$DOCKER_USER" -p="$DOCKER_PASS" && docker tag riemann cortwave/riemann:latest &&  docker push cortwave/riemann:latest && docker tag riemann cortwave/riemann:$TRAVIS_TAG && docker push cortwave/riemann:$TRAVIS_TAG
